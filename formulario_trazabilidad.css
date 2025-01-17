@@ -1,0 +1,71 @@
+*{
+  width: 100%;
+  box-sizing: border-box;
+  font-family:'Lucida Sans';
+  font-weight: bold;
+}
+
+.encabezado {
+  height: 100px;
+  margin-top: 20px;
+  background-color: orange;
+  border: 2px solid black;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.col-6 {
+  height: 100px;
+  font-size: 20px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  align-content: center;
+  font-weight: bold;
+}
+
+.col-3 {
+  font-size: 20px;
+  align-content: center;
+}
+
+.form-container {
+  background-color: rgb(216, 212, 212);
+  height: 400px;
+  max-width: 1000px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: left;
+  align-content: center;
+}
+
+input {
+  border-radius: 10px;
+  border-color: black;
+  height: 40px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.piePagina {
+  background-color: rgb(0, 119, 255);
+  height: 100px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
