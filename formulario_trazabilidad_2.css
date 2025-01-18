@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .col {
+    flex: 1;
+    min-width: 200px; /* Asegura que los elementos tengan un ancho mínimo */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5rem; /* Espaciado entre el label y el input */
+    font-weight: bold; /* Opcional, para destacar el texto */
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007BFF; /* Cambia el color del borde al enfocar */
+  }
+  
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.formContainer {
+    padding: 50px;
+    width: 800px;
+    height: 600px;
+    background-color: aqua;
+    border-color: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px gray;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.columna {    
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.label {
+    display: flex;
+} */
+
+
